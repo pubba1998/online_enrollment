@@ -1,8 +1,9 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = ""; //Your password here
-$dbname = "online_attendance";
+include 'connection.php';
+// $servername = "localhost";
+// $username = "root";
+// $password = ""; //Your password here
+// $dbname = "online_attendance";
 $stid = $_REQUEST["STID"];
 $mid = $_REQUEST["MID"];
 $lid = $_REQUEST["LID"];

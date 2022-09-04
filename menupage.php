@@ -80,7 +80,7 @@
   <!-- Tab panes -->
  <div class="tab-content">
     <div id="student" class="container tab-pane active"><br>
-     <!-- <?php include('StudentPagePage.php') ?> -->
+     <?php include('StudentPagePage.php') ?>
       <!-- <a href="StudentPage.php">Student</a> -->
       </div>
     <div id="lecturer" class="container tab-pane fade"><br>
