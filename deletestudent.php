@@ -1,8 +1,9 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = ""; //Your password here
-$dbname = "online_attendance";
+include 'connection.php';
+// $servername = "localhost";
+// $username = "root";
+// $password = ""; //Your password here
+// $dbname = "online_attendance";
 $id = $_REQUEST["STID"];
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error)
